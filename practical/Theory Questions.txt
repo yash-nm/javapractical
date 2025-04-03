@@ -1,0 +1,101 @@
+------------------------+
+Theory Question			|
+------------------------+
+______________________________________________________________________________________________________________________________________________________________
+
+1.What are the key features of Java?
+Ans:Java is high level , robust( it handles exception, no uses of pointer concepts ), platform independent object oriented programming language.
+	Java was developed by sun-microsystem in 1995 ( also by james gossling ).  
+	Java is widely used in Web Application , Mobile Application, Embedded Application , Enterprise Application. 
+	Features of java programming:
+			1. Object Oriented 
+			2. Simple 
+			3. Secured & Robust
+			4. Platform Independent
+			5. Portable 
+			6. Architectural Neutral (32bit / 64Bit)
+			7. Dynamic ( Classes are loaded on demand )
+			8. Interpreted
+			9. High Performance
+			10. Multithreading
+
+
+2.What is the difference between JDK , JVM and JRE ?
+Ans:
+---------------------------------------------------------------------------------------------------------------------------------------------	
+		JVM (Java Virtual Machine) 				| 		JRE (Java Runtime Environment)     			|	JDK (Java Development Kit)
+---------------------------------------------------------------------------------------------------------------------------------------------	
+												|													|
+	1)The engine that executes Java bytecode, 	|	A package that includes the JVM and libraries 	|	A comprehensive toolkit for developing Java applications, 
+	providing a runtime environment 			|Java applications need to run.						|including the JRE, compilers, and tools.
+	for Java applications.						|													|
+												|													|
+---------------------------------------------------------------------------------------------------------------------------------------------	
+												|													|										
+	2)Bytecode interpreter, Just-In-Time (JIT) 	|	JVM, core libraries, and other components to 	|	JRE, javac compiler, tools for Java application development 
+	compiler, Garbage Collector.				|support Java application execution.				|(e.g., debugger, javadoc).
+												|													|										
+---------------------------------------------------------------------------------------------------------------------------------------------
+												|													|										
+	3)To provide a platform-independent way of 	|	To provide the runtime environment necessary 	|	To provide developers with the tools needed to develop, 
+	executing Java bytecode.					|for executing Java applications.					|compile, and debug Java applications.
+												|													|										
+---------------------------------------------------------------------------------------------------------------------------------------------	
+												|													|										
+	4)Used by developers indirectly through 	|	Used by anyone wanting to run Java applications.|	Used by Java developers for application development.
+	the JRE or JDK.								|													|
+												|													|										
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+3.Explain the different types of operators in Java.
+
+Ans:
+
+
+10.What is polymorphism in Java?
+Ans:Polymorphism is one of the four fundamental principles of object oriented programming alongside encapsulation, polymorphism, inheritance and abstraction.
+	The term polymorphism come from greek meaning many forms. In Java its typical achieved through 
+	method Overriding, Method Overloading.
+
+	According to Compile time and Runtime
+
+	Compile Time polymorphism:  
+		It is based on number or types of parameters.
+		Static binding
+		Same method name differenet parameters list
+		Slightly faster as method is decided during compilation, list of parameters must be different.
+
+	Runtime Polymorphism: 
+		It is based on objects actual type(parent).
+		Dynamic binding 
+		Same name, same parameters list but different classes
+		Slightly slower as the method is decided at runtime.
+		Method parameters must be same in parent and child class.
+		
+		
+		Compile Time Polymorphism for Constructor
+			Cant be overridden in java so they cant exhibit runtime polymorphism; however constructor overloading can still happen.
+			Constructor overloading occurs when a class has multiple constructors with the same name but different parameters list.
+		
+		Static Binding 
+			Its also known as early binding happens at compile time.
+			Method or variable to be accessed is resolved by the comiler before program run.
+		
+		Dynamic Binding 
+			It is also known as late binding happens at runtime. 
+			It has slower execution process because method is resolved at runtime.
+			Overloading leads to dynamic binding as the method to call is determined at runtime based on objects class.
+		
+12.What is an interface in Java?
+Ans:Inhertance is one of the core concept in OOP
+	Inheritance allows child class to inherit properties and behaviour from another class.
+	Types of Inheritance
+	1.	Single Inheritance:	In single inheritance child class inherits properties of one parent class.
+	2.	Multilevel Inheritance:	In this inheritance child class inherits properties of parent class and then itself acts a parent to another child class.
+	3.	Hierarchy inheritance:	Multiple child / sub classes inherits single parent class.
+
+
+15.What is encapsulation?
+
+Ans:

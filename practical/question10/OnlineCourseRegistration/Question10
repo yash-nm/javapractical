@@ -1,0 +1,9 @@
+
+10.Online Course Registration (Handling Multiple Exceptions)
+	Ask the user for age and course selection number.
+	If age < 10, throw InvalidAgeException.
+	If the user enters an invalid course number, handle ArrayIndexOutOfBoundsException.
+
+========
+Execution Stops at Message "Password cant be empty."  
+how can be normal flow be maintained.
